@@ -16,9 +16,6 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.core.IsIterableContaining.hasItem;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest 
 {
     private static RequestSpecification requestSpec;
